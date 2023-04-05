@@ -91,4 +91,8 @@ def quadr_eq(a1, b1, c1):
         x2 = (-b1 + np.sqrt(complex(D))) / (2 * a1)
         return x1, x2
 
-bot.polling(none_stop = True)
+while True:
+    try:
+        bot.polling(none_stop=True)
+    except:
+        time.sleep(10)
