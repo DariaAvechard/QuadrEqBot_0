@@ -93,6 +93,6 @@ def quadr_eq(a1, b1, c1):
 
 while True:
     try:
-        bot.polling(none_stop=True)
+        bot.polling(none_stop = True)
     except:
         time.sleep(10)
